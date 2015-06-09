@@ -1,4 +1,10 @@
 {
+  "autoload": {
+    "psr-4": {
+      "ED3\\": "src/",
+      "ED3\\Test\\": "tests/"
+    }
+  },
   "require-dev": {
     "phpunit/phpunit": "4.7.*",
     "squizlabs/php_codesniffer": "^2.3"
